@@ -1,42 +1,65 @@
 body {
-    background: linear-gradient(#2980b9, #6dd5fa, #ffffff);
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    font-family: 'Poppins', sans-serif;
+    height: 100% auto;
+    color: magenta;
+}
+
+#container {
+    margin-left: 20%;
     text-align: center;
-
-}
-
-#test {
+    background-color:aliceblue;
     width: 50%;
-    background: white;
-    border-radius: 10px;
-    margin: 10% auto;
     padding: 20px;
-    box-sizing: border-box;
-    
+    border-radius: 20px;
 }
 
-ul {
-    padding: 0;
-}
-li {
-    border: 3px solid grey;
-    margin-top: 1%;
-    background-color: pink;
-    height:30px ;
-    color: black;
-    list-style-type: none;
+.task {
+    background-color: aliceblue;
+    border: 3px dashed violet;
+    margin-top: 10px;
     text-align: left;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    color: magenta;
 }
 
 .delete {
-    background-color: #e41414;
-    color: #ffffff;
-    width: 40px;
-    height: 30px;
-    font-size: 15px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+    font-size: large;
     float: right;
-  }
+    height: 34px;
+    width: 50px;
+    background-color: violet;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    
+}
 
+.completed {
+    background-color: violet;
+    text-decoration: line-through;
+}
 
+#addbutton {
+    width: 70px;
+    background-color: violet;
+    color: lavenderblush;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}  
+
+#text {
+    border: 2px violet dashed;
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
