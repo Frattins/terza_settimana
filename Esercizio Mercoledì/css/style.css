@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(#2980b9, #6dd5fa, #ffffff);
+    text-align: center;
+
+}
+
+#test {
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+    margin: 10% auto;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+ul {
+    padding: 0;
+}
+li {
+    border: 3px solid grey;
+    margin-top: 1%;
+    background-color: pink;
+    height:30px ;
+    color: black;
+    list-style-type: none;
+    text-align: left;
+}
+
+.delete {
+    background-color: #e41414;
+    color: #ffffff;
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+  }
+
+
