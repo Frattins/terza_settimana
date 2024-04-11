@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    height: 100vh;
+    background: beige;
+}
+
+
+
+.celle {
+    border: 1px solid black;
+    color: black;
+    display: inline-grid;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.evidenza {
+    background-color: rgb(178, 245, 228);
+    color : black
+
+}
